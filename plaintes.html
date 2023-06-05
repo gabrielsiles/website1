@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Compatible avec telephone -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>La Bonne Fourchette</title>
+        <link rel="icon" href="icon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <div class="header"> 
+            <div>
+                <h1><a class="title" href="accueil.html">La Bonne Fourchette</a></h1>
+            </div>
+            <hr>
+            <p class="slogan"> Le haute gastronomie c'est ici!</p>
+        </div>
+        
+        <div class="navbar">
+            <a href="/accueil.html">Accueil</a>
+            <a href="/menu.html">Menu</a>
+            <a href="/apropos.html">À Propos</a>
+            <a href="/equipe.html">Équipe</a>
+            <a href="/evenements.html">Événements</a>
+            <a href="/plaintes.html"class="right">Plaintes</a>    
+        </div>
+        <div id="form-title">
+            <h1>Plaintes</h1>
+        </div>
+       
+        <div class="form-box">
+            <form action="#" method="POST" class="complaint-form">
+              <div class="form-group">
+                <div class="label-box">
+                  <label for="name">Nom :</label>
+                </div>
+                <input type="text" id="name" name="name" required>
+              </div>
+          
+              <div class="form-group">
+                <div class="label-box">
+                  <label for="email">Email :</label>
+                </div>
+                <input type="email" id="email" name="email" required>
+              </div>
+          
+              <div class="form-group">
+                <div class="label-box">
+                  <label for="complaint-type">Type de plainte :</label>
+                </div>
+                <select id="complaint-type" name="complaint-type" required>
+                  <option value="">Sélectionnez le type de plainte</option>
+                  <option value="Service">Service</option>
+                  <option value="Produit">Produit</option>
+                  <option value="Livraison">Livraison</option>
+                  <option value="Facturation">Facturation</option>
+                  <option value="Autre">Autre</option>
+                </select>
+              </div>
+          
+              <div class="form-group">
+                <div class="label-box">
+                  <label for="subject">Sujet :</label>
+                </div>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+          
+              <div class="form-group">
+                <div class="label-box">
+                  <label for="message">Message :</label>
+                </div>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+          
+              <div class="form-group">
+                <div class="label-box">
+                  <label for="attachment">Pièce jointe :</label>
+                </div>
+                <input type="file" id="attachment" name="attachment">
+              </div>
+          
+              <button type="submit">Envoyer</button>
+            </form>
+          </div>
+          
+          
+    </body>
+</html>

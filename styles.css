@@ -1,0 +1,729 @@
+/*Style pour le body de la page acceuil.html*/
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(160, 243, 160);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+hr {
+    height: 2px;
+    border-width: 0;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    width: 60%;
+}
+.slogan {
+    color: #050303;
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+/* === STYLE DE TITRE #1 === */
+  .title h1 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+ 
+  a.title{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:black
+    
+  }
+
+  a.title:hover{
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  
+/* Style pour la barre de navigation contenant des liens internes de la page acceuil.html*/
+
+.navbar {
+    overflow: hidden; /* Pour que les éléments flottants soient contenus dans la barre */
+    width: 100%;
+    background-color: #333; /* Couleur de fond */
+}
+
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: rgb(255, 255, 255); /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Right-aligned link */
+.navbar a.right {
+    float: right; /* Float a link to the right */
+  }
+
+.navbar a:hover {
+    background-color: #fefefe;
+    color: rgb(18, 17, 17);
+  }
+
+/* Style pour l'en-tete de chaque article de la page accueuil.html*/
+
+article {
+    display: flex;
+    flex-direction: column;
+   
+    padding: 20px;
+    background-color: #f3f0f2;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 30%;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    min-width: 650px; 
+    max-width: 60%;
+}
+
+article header {
+    margin-top: 20px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 800px;
+    
+}
+
+.sous-titre {
+    color: #000;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.sous-titre:hover {
+    color: #a75757;
+}
+/* Style pour les liens de chaque article de la page acceuil.html*/
+
+.lien span {
+    font-size: 20px;
+    color: rgb(132, 93, 55);
+    cursor: pointer;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.lien span:hover {
+    color: rgb(4, 137, 158);
+    background-color: rgb(255, 255, 255);
+}
+
+/* Style pour le contenu de l'article de la page acceuil.html*/
+.column {
+    display: flex;
+    flex-direction: column; /* Aligner les elements horizontalement*/
+    justify-content: space-between; /* Ajouter de l'espacement entre les elements. */
+}
+
+
+/* Style pour la description de chaque article la page acceuil.html*/
+
+.description {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 100px;
+    line-height: 1.5;
+    width: 90%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Style pour l'image de chaque article la page acceuil.html*/
+
+.article .image img {
+    max-width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 400px;
+    width: 450px;
+}
+
+
+
+/* Style pour l'auteur de chaque article */
+.auteurEtdate {
+    margin-top: 20px;
+    display: inline-block;
+    border: 1px dotted #000;
+    font-size: 12px;
+    font-style: italic;
+    border-radius: 50px 20px 50px 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(104, 99, 99);
+}
+
+
+/* Style pour le lien interne de chaque article */
+#articlesRecents {
+    float: right;
+    width: 25%;
+    padding: 5px;
+   border-radius: 5px;
+    background-color: #e4dada;
+    margin-top: 100px;
+    margin-left: 50%;
+    
+}
+
+#articlesRecents h3 {
+    color: #333;
+    text-decoration: underline;
+    text-align: center;
+}
+#articlesRecents li a {
+ 
+    color: #00458a;
+}
+#articlesRecents li a:hover {
+    color: #000101;
+}
+
+#articlesRecents ul {
+    list-style: none;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+/* Style pour mettre un mot en caractere gras*/
+.bold {
+    font-weight: bold;
+}
+
+/*STYLE POUR LA PAGE DE MENU.html*/
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.row .column {
+    flex: 1;  /* Each child div will take up an equal amount of space */
+    text-align: center;  /* Center the content (title and image) within each div */
+    margin: 0 10px;  /* Add some margin around each child div for spacing */
+}
+
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu table {
+    width: 800px;
+    margin:25px;
+}
+
+
+.menu th,
+.menu td {
+    border: 1px solid #ddd;
+    padding: 15px; 
+    text-align: center; 
+}
+.menu tr:hover {
+    background-color:rgb(217, 228, 252);
+}
+
+.menu th {
+    background-color: #f2f2f2; 
+}
+
+.image-menu {
+    width: 400px;
+    height: 300px;
+    max-width: 100%; 
+    opacity: 0.5; 
+}
+
+.image-menu:hover {
+    opacity: 1;
+}
+
+
+/* Style pour les commentaires du menu*/
+.comments {
+    width: 80%;
+    margin: 0 auto; /* Centre les commentaires */
+   
+}
+
+.comment {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 75%;
+   
+}
+.comment:hover {
+    background-color: rgb(217, 228, 252);
+}
+
+.comment h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.comment p {
+    font-style: italic;
+    color: #666;
+}
+
+hr#hr-menu{    
+    margin-left: 1px;
+    width: 600px;
+}
+
+/* Style pour la page A propos.html */
+
+
+
+
+.description-a-propos {
+   
+    font-family: "Karla", Sans-serif;
+    margin-top:50px;
+    margin-right: 100px;
+}
+
+p{
+    font-family: "Karla", Sans-serif;
+}
+
+.description-a-propos p{
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.5;
+}
+
+p#description-a-propos-2 {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-left: 60px;  
+
+}
+
+h1#titre-a-propos-2 {
+    font-family: "Karla", Sans-serif;
+    margin-left: 60px;
+    margin-top: 225px;
+    
+}
+
+.image-a-propos {
+    display: block;
+    
+    height: 300px;
+    margin-top:50px;
+}
+
+#image-a-propos-2 {
+    display: block;
+    margin-top: 225px;
+  
+
+}
+
+#description-a-propos-2 {
+    display: block;
+    margin-top: 300px;
+    margin-left: 100px;
+   
+}
+
+#titre-a-propos-3 {
+    display: block;
+    margin-top: 225px;
+    
+   
+}
+
+#image-a-propos-3 {
+    display: block; 
+    margin-top: 225px;
+    
+   
+}
+
+p#description-a-propos-3 {
+    display: block;
+    margin-right: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.5; 
+}
+
+/*Style pour les succursales ouvertes (ul)*/
+#location {
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  #location .locations-list {
+    display: inline-block;
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .locations-list > li {
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 10px 0;
+    padding: 10px 100px 10px 100px;
+    background-color: #fff;
+    list-style: none;
+    margin-left: 60px;
+    margin-right: 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: rgb(220, 246, 225);
+  }
+  
+  #location .locations-list li ul {
+    list-style-type: none;
+    margin-left: 30px;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+  #location .locations-list li ul li {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 5px 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: none;
+    margin-left: 0;
+  }
+
+  #location .locations-list li ul li:hover{
+    background-color: rgb(0, 0, 0);
+    color:yellow;
+  }  
+
+  #location .locations-list li ul li::before {
+    content: "\2605";;
+    margin-right: 5px;
+  }
+
+  /*Style pour la page de l'equipe.html*/
+
+
+  .block {
+    text-align: center;
+    justify-content: space-between;
+    opacity: 0.6;
+    margin: 10px;
+  }
+  
+  .block img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid #ddfddf;
+  }
+  
+  .block h3,
+  .block p {
+    margin: 10px 0;
+    text-align: center;
+    justify-content: space-between;
+    width: 300px;
+  }
+
+  h1.block {
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 1;   
+  }
+
+  h1.block:hover {
+    color: #24d2d2;
+    text-decoration: underline;
+  }
+
+  .block:hover {
+    background-color: rgb(254, 254, 254);
+    opacity: 1;
+  }
+  
+/*Style pour la page de contact.html*/
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .contact h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+  
+  .contact p {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .contact .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+  }
+  
+  .contact .form input,
+  .contact .form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact .form input:focus,
+  .contact .form textarea:focus {
+    outline: none;
+    border-color: #24d2d2;
+  }
+  
+  .contact .form textarea {
+    height: 200px;
+  }
+  
+  .contact .form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #24d2d2;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .contact .form button:hover {
+    background-color: #24d2d2;
+  }
+  
+  .contact .form button:focus {
+    outline: none;
+  }
+
+  /*Style pour la page de reservation.html*/
+
+  .reservation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .reservation h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+  
+  .reservation p {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .reservation .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+  }
+  
+ 
+
+/*Style pour la page evenements.html*/
+.custom-list {
+   list-style: none;
+   counter-reset: steps;
+   margin-left: 200px;
+   margin-right: 200px;
+   background-color: rgb(255, 255, 255);
+  }
+  
+  .custom-list li {
+    counter-increment: steps;
+    font-size: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+
+
+  .custom-list li::before {
+    content: counter(steps);
+    margin-right: 0.5rem;
+    background: #ff6f00;
+    color: white;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    display: inline-grid;
+    place-items: center;
+    line-height: 1.2em;
+    margin: 20px;
+  }
+
+  .custom-list li:hover::before{
+    background-color: rgb(0, 0, 0);
+    color:yellow;
+  }
+
+  .img-event{
+    width: 400px;
+    height: 400px;
+    opacity: 0.6;
+  }
+
+  .img-event:hover{
+    width: 400px;
+    height: 400px;
+    opacity: 1;
+}
+
+p.event{
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+   margin: 50px
+}
+
+p.event:hover{
+  font-weight: bold;
+  margin: 50px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+}
+  
+  /*Style pour la page de plaintes.html*/
+  
+ /*Style pour la page plaintes.html*/
+
+#form-title h1{
+    font-size: 40px;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+.form-box {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .label-box {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .label-box label {
+    margin: 0;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="file"] {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  button[type="submit"] {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #67fb22;
+  color: #050303;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  transform: scale(1.5);
+}
+
+
+    
