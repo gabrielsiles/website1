@@ -301,7 +301,7 @@ article header {
     color: #666;
 }
 
-hr#hr-menu{    
+hr.hr-menu{    
     margin-left: 1px;
     width: 600px;
 }
@@ -340,7 +340,7 @@ p#description-a-propos-2 {
 h1#titre-a-propos-2 {
     font-family: "Karla", Sans-serif;
     margin-left: 60px;
-    margin-top: 225px;
+    margin-top: 425px;
     
 }
 
@@ -348,12 +348,12 @@ h1#titre-a-propos-2 {
     display: block;
     
     height: 300px;
-    margin-top:50px;
+    margin-top:100px;
 }
 
 #image-a-propos-2 {
     display: block;
-    margin-top: 225px;
+    margin-top: 425px;
   
 
 }
