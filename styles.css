@@ -1,5 +1,9 @@
 /*Style pour le body de la page acceuil.html*/
 
+body{
+    cursor: url("cursor.png"), auto;
+}
+
 .header {
     text-align: center;
     padding: 20px;
@@ -451,7 +455,8 @@ p#description-a-propos-3 {
     text-align: center;
     justify-content: space-between;
     opacity: 0.6;
-    margin: 10px;
+    margin: 20px;
+
   }
   
   .block img {
@@ -487,7 +492,10 @@ p#description-a-propos-3 {
   .block:hover {
     background-color: rgb(254, 254, 254);
     opacity: 1;
+    transform: scale(1.2);
   }
+
+ 
   
 /*Style pour la page de contact.html*/
 
