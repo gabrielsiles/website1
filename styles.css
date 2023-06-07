@@ -725,5 +725,17 @@ button[type="submit"]:hover {
   transform: scale(1.5);
 }
 
+.footer-content {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  bottom: 0;
+  width: 100%;
+  margin-top: 100px;
+}
+
+
 
     
