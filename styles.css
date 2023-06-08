@@ -58,10 +58,14 @@ hr {
 /* Style pour la barre de navigation contenant des liens internes de la page acceuil.html*/
 
 .navbar {
+    display: block;
     overflow: hidden; /* Pour que les éléments flottants soient contenus dans la barre */
     width: 100%;
     background-color: #333; /* Couleur de fond */
+    position: sticky; /* Pour que la barre de navigation reste en haut de la page */
+    top: 0; /* Positionnement de la barre de navigation */
 }
+
 
 
 /* Style the navigation bar links */
